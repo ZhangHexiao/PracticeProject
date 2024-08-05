@@ -23,6 +23,11 @@
 		BEF54CF52C60161B001F69DA /* QuestionResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = BEF54CF42C60161B001F69DA /* QuestionResponse.json */; };
 		BEF54CF72C602225001F69DA /* CollectionImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54CF62C602225001F69DA /* CollectionImageDataModel.swift */; };
 		BEF54CF92C602AF8001F69DA /* CollectionImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54CF82C602AF8001F69DA /* CollectionImageViewCell.swift */; };
+		BEF54CFC2C6118D1001F69DA /* StarWarNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54CFB2C6118D1001F69DA /* StarWarNetworkManager.swift */; };
+		BEF54CFE2C61239D001F69DA /* StarWarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54CFD2C61239D001F69DA /* StarWarModel.swift */; };
+		BEF54D002C6124D9001F69DA /* StarWarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54CFF2C6124D9001F69DA /* StarWarViewModel.swift */; };
+		BEF54D022C6124ED001F69DA /* StarWarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D012C6124ED001F69DA /* StarWarViewController.swift */; };
+		BEF54D062C6130BC001F69DA /* StarWarPersonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D052C6130BC001F69DA /* StarWarPersonViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		BEF54CF42C60161B001F69DA /* QuestionResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QuestionResponse.json; sourceTree = "<group>"; };
 		BEF54CF62C602225001F69DA /* CollectionImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionImageDataModel.swift; sourceTree = "<group>"; };
 		BEF54CF82C602AF8001F69DA /* CollectionImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionImageViewCell.swift; sourceTree = "<group>"; };
+		BEF54CFB2C6118D1001F69DA /* StarWarNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarNetworkManager.swift; sourceTree = "<group>"; };
+		BEF54CFD2C61239D001F69DA /* StarWarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarModel.swift; sourceTree = "<group>"; };
+		BEF54CFF2C6124D9001F69DA /* StarWarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarViewModel.swift; sourceTree = "<group>"; };
+		BEF54D012C6124ED001F69DA /* StarWarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarViewController.swift; sourceTree = "<group>"; };
+		BEF54D052C6130BC001F69DA /* StarWarPersonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarPersonViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,8 @@
 			children = (
 				BEF54CEA2C5F20DF001F69DA /* LandiingScreen */,
 				BEF54CED2C60080E001F69DA /* CollectionViewWithImage */,
+				BEF54CFA2C60701D001F69DA /* StarWarWithSearch */,
+				BEF54D072C616F38001F69DA /* InfiniteLoading */,
 				BE7D308F2C5F1CFB000FAB65 /* AppDelegate.swift */,
 				BE7D30912C5F1CFB000FAB65 /* SceneDelegate.swift */,
 				BE7D30952C5F1CFB000FAB65 /* Main.storyboard */,
@@ -155,13 +167,32 @@
 			isa = PBXGroup;
 			children = (
 				BEF54CEE2C6008BC001F69DA /* CollectionImageViewController.swift */,
-				BEF54CF82C602AF8001F69DA /* CollectionImageViewCell.swift */,
 				BEF54CF02C600A0A001F69DA /* CollectionImageViewModel.swift */,
+				BEF54CF82C602AF8001F69DA /* CollectionImageViewCell.swift */,
 				BEF54CF22C600AA2001F69DA /* CollectionImageNetworkManager.swift */,
 				BEF54CF62C602225001F69DA /* CollectionImageDataModel.swift */,
 				BEF54CF42C60161B001F69DA /* QuestionResponse.json */,
 			);
 			path = CollectionViewWithImage;
+			sourceTree = "<group>";
+		};
+		BEF54CFA2C60701D001F69DA /* StarWarWithSearch */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54D012C6124ED001F69DA /* StarWarViewController.swift */,
+				BEF54CFF2C6124D9001F69DA /* StarWarViewModel.swift */,
+				BEF54D052C6130BC001F69DA /* StarWarPersonViewCell.swift */,
+				BEF54CFB2C6118D1001F69DA /* StarWarNetworkManager.swift */,
+				BEF54CFD2C61239D001F69DA /* StarWarModel.swift */,
+			);
+			path = StarWarWithSearch;
+			sourceTree = "<group>";
+		};
+		BEF54D072C616F38001F69DA /* InfiniteLoading */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InfiniteLoading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,11 +331,16 @@
 				BEF54CEC2C5F20F4001F69DA /* LandingCell.swift in Sources */,
 				BEF54CF32C600AA2001F69DA /* CollectionImageNetworkManager.swift in Sources */,
 				BEF54CF72C602225001F69DA /* CollectionImageDataModel.swift in Sources */,
+				BEF54CFC2C6118D1001F69DA /* StarWarNetworkManager.swift in Sources */,
+				BEF54D002C6124D9001F69DA /* StarWarViewModel.swift in Sources */,
 				BE7D30902C5F1CFB000FAB65 /* AppDelegate.swift in Sources */,
 				BEF54CEF2C6008BC001F69DA /* CollectionImageViewController.swift in Sources */,
 				BEF54CF12C600A0A001F69DA /* CollectionImageViewModel.swift in Sources */,
 				BE7D30922C5F1CFB000FAB65 /* SceneDelegate.swift in Sources */,
 				BEF54CF92C602AF8001F69DA /* CollectionImageViewCell.swift in Sources */,
+				BEF54D022C6124ED001F69DA /* StarWarViewController.swift in Sources */,
+				BEF54D062C6130BC001F69DA /* StarWarPersonViewCell.swift in Sources */,
+				BEF54CFE2C61239D001F69DA /* StarWarModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

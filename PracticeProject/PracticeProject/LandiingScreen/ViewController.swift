@@ -21,11 +21,12 @@ class ViewController: UIViewController {
         setUpTableView()
     }
     
-    let indexLog = [
+    let indexLog:[[(title:String, navigation:UIViewController.Type)]] = [
         
         [
             (title: "Collection View With Image", navigation: CollectionImageViewController.self),
-//            (title: "Search Your Beer", navigation: "ProductSearchViewController"),
+            (title: "Search Your Hero", navigation: StarWarViewController.self),
+            (title: "Search Your Hero", navigation: StarWarViewController.self)
 //            (title: "Graph", navigation: "GraphController"),
 //            (title: "AnimationChart", navigation: "AnimationController")
         ],
@@ -41,7 +42,6 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none
-        tableView.style
         tableView.register(LandingCell.self, forCellReuseIdentifier: LandingCell.identifier)
         view.addSubview(tableView)
         NSLayoutConstraint.activate([
@@ -66,6 +66,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: LandingCell.identifier, for: indexPath) as? LandingCell ?? LandingCell()
+        
         cell.configCell(pageName: indexLog[indexPath.section][indexPath.row].title)
         cell.selectionStyle = .none
         return cell
