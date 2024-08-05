@@ -1,0 +1,24 @@
+{
+    "query": "Please select the image you like",
+    "answer": [
+        {
+            "correct": true,
+            "image_url": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=300,format=auto,quality=50/https://cdn.doordash.com/media/photos/a3aff42d-b591-4053-9312-1e6ba3f84f30-retina-large-jpeg"
+        },
+        {
+            "correct": false,
+            "image_url": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=300,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/c7e28663-edb9-4e84-a83b-3f909a63e661-retina-large-jpeg"
+        },
+
+        {
+            "correct": false,
+            "image_url": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=300,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/e6801233-0609-41a7-8d05-542c0db491fd-retina-large-jpeg"
+        },
+        {
+            "correct": false,
+            "image_url": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=300,format=auto,quality=50/https://cdn.doordash.com/media/photos/a3aff42d-b591-4053-9312-1e6ba3f84f30-retina-large-jpeg"
+        },
+    ]
+    
+}
+
