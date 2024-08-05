@@ -26,7 +26,8 @@ class ViewController: UIViewController {
         [
             (title: "Collection View With Image", navigation: CollectionImageViewController.self),
             (title: "Search Your Hero", navigation: StarWarViewController.self),
-            (title: "Recipe List Take Home Test", navigation: RecipeListViewController.self)
+            (title: "Recipe List Take Home Test", navigation: RecipeListViewController.self),
+            (title: "Timmer", navigation: TimerViewController.self)
 //            (title: "Graph", navigation: "GraphController"),
 //            (title: "AnimationChart", navigation: "AnimationController")
         ],
