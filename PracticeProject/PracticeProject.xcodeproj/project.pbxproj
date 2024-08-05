@@ -28,6 +28,19 @@
 		BEF54D002C6124D9001F69DA /* StarWarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54CFF2C6124D9001F69DA /* StarWarViewModel.swift */; };
 		BEF54D022C6124ED001F69DA /* StarWarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D012C6124ED001F69DA /* StarWarViewController.swift */; };
 		BEF54D062C6130BC001F69DA /* StarWarPersonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D052C6130BC001F69DA /* StarWarPersonViewCell.swift */; };
+		BEF54D0B2C61710F001F69DA /* PageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D0A2C61710F001F69DA /* PageWrapper.swift */; };
+		BEF54D0D2C617128001F69DA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D0C2C617128001F69DA /* Recipe.swift */; };
+		BEF54D0F2C6171AF001F69DA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D0E2C6171AF001F69DA /* Error.swift */; };
+		BEF54D122C61726B001F69DA /* ApiRequest+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D112C61726B001F69DA /* ApiRequest+Protocol.swift */; };
+		BEF54D142C61729D001F69DA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D132C61729D001F69DA /* NetworkManager.swift */; };
+		BEF54D162C6172D6001F69DA /* ImageCacheLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D152C6172D6001F69DA /* ImageCacheLoader.swift */; };
+		BEF54D192C6172FF001F69DA /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D182C6172FF001F69DA /* RecipeService.swift */; };
+		BEF54D1C2C617366001F69DA /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D1B2C617366001F69DA /* ErrorAlert.swift */; };
+		BEF54D1E2C617387001F69DA /* usesAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D1D2C617387001F69DA /* usesAutoLayout.swift */; };
+		BEF54D202C6173AC001F69DA /* LayoutDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D1F2C6173AC001F69DA /* LayoutDimension.swift */; };
+		BEF54D222C6175BB001F69DA /* RecipeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D212C6175BB001F69DA /* RecipeViewCell.swift */; };
+		BEF54D242C6175DB001F69DA /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D232C6175DB001F69DA /* RecipeViewModel.swift */; };
+		BEF54D262C617605001F69DA /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D252C617605001F69DA /* RecipeListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +86,19 @@
 		BEF54CFF2C6124D9001F69DA /* StarWarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarViewModel.swift; sourceTree = "<group>"; };
 		BEF54D012C6124ED001F69DA /* StarWarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarViewController.swift; sourceTree = "<group>"; };
 		BEF54D052C6130BC001F69DA /* StarWarPersonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarPersonViewCell.swift; sourceTree = "<group>"; };
+		BEF54D0A2C61710F001F69DA /* PageWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageWrapper.swift; sourceTree = "<group>"; };
+		BEF54D0C2C617128001F69DA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		BEF54D0E2C6171AF001F69DA /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		BEF54D112C61726B001F69DA /* ApiRequest+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiRequest+Protocol.swift"; sourceTree = "<group>"; };
+		BEF54D132C61729D001F69DA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BEF54D152C6172D6001F69DA /* ImageCacheLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheLoader.swift; sourceTree = "<group>"; };
+		BEF54D182C6172FF001F69DA /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		BEF54D1B2C617366001F69DA /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		BEF54D1D2C617387001F69DA /* usesAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usesAutoLayout.swift; sourceTree = "<group>"; };
+		BEF54D1F2C6173AC001F69DA /* LayoutDimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutDimension.swift; sourceTree = "<group>"; };
+		BEF54D212C6175BB001F69DA /* RecipeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewCell.swift; sourceTree = "<group>"; };
+		BEF54D232C6175DB001F69DA /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		BEF54D252C617605001F69DA /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +152,7 @@
 				BEF54CEA2C5F20DF001F69DA /* LandiingScreen */,
 				BEF54CED2C60080E001F69DA /* CollectionViewWithImage */,
 				BEF54CFA2C60701D001F69DA /* StarWarWithSearch */,
-				BEF54D072C616F38001F69DA /* InfiniteLoading */,
+				BEF54D072C616F38001F69DA /* InfiniteLoading-TakHome */,
 				BE7D308F2C5F1CFB000FAB65 /* AppDelegate.swift */,
 				BE7D30912C5F1CFB000FAB65 /* SceneDelegate.swift */,
 				BE7D30952C5F1CFB000FAB65 /* Main.storyboard */,
@@ -188,11 +214,64 @@
 			path = StarWarWithSearch;
 			sourceTree = "<group>";
 		};
-		BEF54D072C616F38001F69DA /* InfiniteLoading */ = {
+		BEF54D072C616F38001F69DA /* InfiniteLoading-TakHome */ = {
 			isa = PBXGroup;
 			children = (
+				BEF54D082C61702C001F69DA /* RecipeList */,
+				BEF54D172C6172EC001F69DA /* ApiService */,
+				BEF54D102C6171D8001F69DA /* Network */,
+				BEF54D092C6170F6001F69DA /* Model */,
+				BEF54D1A2C617339001F69DA /* Helper */,
 			);
-			path = InfiniteLoading;
+			path = "InfiniteLoading-TakHome";
+			sourceTree = "<group>";
+		};
+		BEF54D082C61702C001F69DA /* RecipeList */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54D252C617605001F69DA /* RecipeListViewController.swift */,
+				BEF54D212C6175BB001F69DA /* RecipeViewCell.swift */,
+				BEF54D232C6175DB001F69DA /* RecipeViewModel.swift */,
+			);
+			path = RecipeList;
+			sourceTree = "<group>";
+		};
+		BEF54D092C6170F6001F69DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54D0A2C61710F001F69DA /* PageWrapper.swift */,
+				BEF54D0C2C617128001F69DA /* Recipe.swift */,
+				BEF54D0E2C6171AF001F69DA /* Error.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEF54D102C6171D8001F69DA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54D112C61726B001F69DA /* ApiRequest+Protocol.swift */,
+				BEF54D132C61729D001F69DA /* NetworkManager.swift */,
+				BEF54D152C6172D6001F69DA /* ImageCacheLoader.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BEF54D172C6172EC001F69DA /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54D182C6172FF001F69DA /* RecipeService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		BEF54D1A2C617339001F69DA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54D1B2C617366001F69DA /* ErrorAlert.swift */,
+				BEF54D1D2C617387001F69DA /* usesAutoLayout.swift */,
+				BEF54D1F2C6173AC001F69DA /* LayoutDimension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,20 +406,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF54D142C61729D001F69DA /* NetworkManager.swift in Sources */,
 				BE7D30942C5F1CFB000FAB65 /* ViewController.swift in Sources */,
+				BEF54D0B2C61710F001F69DA /* PageWrapper.swift in Sources */,
 				BEF54CEC2C5F20F4001F69DA /* LandingCell.swift in Sources */,
+				BEF54D202C6173AC001F69DA /* LayoutDimension.swift in Sources */,
 				BEF54CF32C600AA2001F69DA /* CollectionImageNetworkManager.swift in Sources */,
+				BEF54D1E2C617387001F69DA /* usesAutoLayout.swift in Sources */,
 				BEF54CF72C602225001F69DA /* CollectionImageDataModel.swift in Sources */,
 				BEF54CFC2C6118D1001F69DA /* StarWarNetworkManager.swift in Sources */,
+				BEF54D162C6172D6001F69DA /* ImageCacheLoader.swift in Sources */,
+				BEF54D222C6175BB001F69DA /* RecipeViewCell.swift in Sources */,
+				BEF54D262C617605001F69DA /* RecipeListViewController.swift in Sources */,
 				BEF54D002C6124D9001F69DA /* StarWarViewModel.swift in Sources */,
+				BEF54D242C6175DB001F69DA /* RecipeViewModel.swift in Sources */,
 				BE7D30902C5F1CFB000FAB65 /* AppDelegate.swift in Sources */,
 				BEF54CEF2C6008BC001F69DA /* CollectionImageViewController.swift in Sources */,
 				BEF54CF12C600A0A001F69DA /* CollectionImageViewModel.swift in Sources */,
 				BE7D30922C5F1CFB000FAB65 /* SceneDelegate.swift in Sources */,
+				BEF54D0F2C6171AF001F69DA /* Error.swift in Sources */,
 				BEF54CF92C602AF8001F69DA /* CollectionImageViewCell.swift in Sources */,
+				BEF54D1C2C617366001F69DA /* ErrorAlert.swift in Sources */,
 				BEF54D022C6124ED001F69DA /* StarWarViewController.swift in Sources */,
+				BEF54D192C6172FF001F69DA /* RecipeService.swift in Sources */,
+				BEF54D122C61726B001F69DA /* ApiRequest+Protocol.swift in Sources */,
 				BEF54D062C6130BC001F69DA /* StarWarPersonViewCell.swift in Sources */,
 				BEF54CFE2C61239D001F69DA /* StarWarModel.swift in Sources */,
+				BEF54D0D2C617128001F69DA /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
