@@ -11,7 +11,11 @@ class CollectionImageViewCell: UICollectionViewCell {
     
     static let identifier = "CollectionImageViewCell"
     
-    var imageView = UIImageView()
+    private var imageView = {
+        let imageView = UIImageView()
+        return imageView
+    }()
+    
     override var isSelected: Bool {
         didSet {
             imageView.layer.borderWidth = isSelected ? 4.0 : 0.0

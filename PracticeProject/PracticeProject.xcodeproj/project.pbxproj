@@ -43,6 +43,10 @@
 		BEF54D262C617605001F69DA /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D252C617605001F69DA /* RecipeListViewController.swift */; };
 		BEF54D292C618023001F69DA /* TimerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D282C618023001F69DA /* TimerTableViewCell.swift */; };
 		BEF54D2B2C61808C001F69DA /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D2A2C61808C001F69DA /* TimerViewController.swift */; };
+		BEF54D2E2C61AAC5001F69DA /* ConcurrentImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D2D2C61AAC5001F69DA /* ConcurrentImageCell.swift */; };
+		BEF54D302C61B1C4001F69DA /* ConcurrentImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D2F2C61B1C4001F69DA /* ConcurrentImageViewModel.swift */; };
+		BEF54D322C61B20D001F69DA /* ConcurrentImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D312C61B20D001F69DA /* ConcurrentImageViewController.swift */; };
+		BEF54D342C61B2F6001F69DA /* ConcurrentImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D332C61B2F6001F69DA /* ConcurrentImageAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +107,10 @@
 		BEF54D252C617605001F69DA /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
 		BEF54D282C618023001F69DA /* TimerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableViewCell.swift; sourceTree = "<group>"; };
 		BEF54D2A2C61808C001F69DA /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		BEF54D2D2C61AAC5001F69DA /* ConcurrentImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentImageCell.swift; sourceTree = "<group>"; };
+		BEF54D2F2C61B1C4001F69DA /* ConcurrentImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentImageViewModel.swift; sourceTree = "<group>"; };
+		BEF54D312C61B20D001F69DA /* ConcurrentImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentImageViewController.swift; sourceTree = "<group>"; };
+		BEF54D332C61B2F6001F69DA /* ConcurrentImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentImageAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +166,7 @@
 				BEF54CFA2C60701D001F69DA /* StarWarWithSearch */,
 				BEF54D072C616F38001F69DA /* InfiniteLoading-TakHome */,
 				BEF54D272C617FCC001F69DA /* Timer */,
+				BEF54D2C2C61AA2E001F69DA /* ConcurrencyResearch */,
 				BE7D308F2C5F1CFB000FAB65 /* AppDelegate.swift */,
 				BE7D30912C5F1CFB000FAB65 /* SceneDelegate.swift */,
 				BE7D30952C5F1CFB000FAB65 /* Main.storyboard */,
@@ -286,6 +295,17 @@
 				BEF54D282C618023001F69DA /* TimerTableViewCell.swift */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		BEF54D2C2C61AA2E001F69DA /* ConcurrencyResearch */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54D312C61B20D001F69DA /* ConcurrentImageViewController.swift */,
+				BEF54D2F2C61B1C4001F69DA /* ConcurrentImageViewModel.swift */,
+				BEF54D332C61B2F6001F69DA /* ConcurrentImageAPIClient.swift */,
+				BEF54D2D2C61AAC5001F69DA /* ConcurrentImageCell.swift */,
+			);
+			path = ConcurrencyResearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +442,7 @@
 			files = (
 				BEF54D142C61729D001F69DA /* NetworkManager.swift in Sources */,
 				BE7D30942C5F1CFB000FAB65 /* ViewController.swift in Sources */,
+				BEF54D302C61B1C4001F69DA /* ConcurrentImageViewModel.swift in Sources */,
 				BEF54D0B2C61710F001F69DA /* PageWrapper.swift in Sources */,
 				BEF54CEC2C5F20F4001F69DA /* LandingCell.swift in Sources */,
 				BEF54D202C6173AC001F69DA /* LayoutDimension.swift in Sources */,
@@ -436,6 +457,7 @@
 				BEF54D002C6124D9001F69DA /* StarWarViewModel.swift in Sources */,
 				BEF54D242C6175DB001F69DA /* RecipeViewModel.swift in Sources */,
 				BE7D30902C5F1CFB000FAB65 /* AppDelegate.swift in Sources */,
+				BEF54D2E2C61AAC5001F69DA /* ConcurrentImageCell.swift in Sources */,
 				BEF54D2B2C61808C001F69DA /* TimerViewController.swift in Sources */,
 				BEF54CEF2C6008BC001F69DA /* CollectionImageViewController.swift in Sources */,
 				BEF54CF12C600A0A001F69DA /* CollectionImageViewModel.swift in Sources */,
@@ -445,6 +467,8 @@
 				BEF54D1C2C617366001F69DA /* ErrorAlert.swift in Sources */,
 				BEF54D022C6124ED001F69DA /* StarWarViewController.swift in Sources */,
 				BEF54D192C6172FF001F69DA /* RecipeService.swift in Sources */,
+				BEF54D342C61B2F6001F69DA /* ConcurrentImageAPIClient.swift in Sources */,
+				BEF54D322C61B20D001F69DA /* ConcurrentImageViewController.swift in Sources */,
 				BEF54D122C61726B001F69DA /* ApiRequest+Protocol.swift in Sources */,
 				BEF54D062C6130BC001F69DA /* StarWarPersonViewCell.swift in Sources */,
 				BEF54CFE2C61239D001F69DA /* StarWarModel.swift in Sources */,
