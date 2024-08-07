@@ -31,12 +31,12 @@ class ViewController: UIViewController {
             (title: "Concurrent Image Research", navigation: ConcurrentImageViewController.self),
             (title: "AnimationChart", navigation: AnimationUIViewController.self)
         ],
-//        [
-//            (title: "Tic-tac-toe Game", navigation: "ThreeQueenController"),
+        [
+            (title: "Tic-tac-toe Game", navigation: TicTacToeViewController.self),
 //            (title: "Beer Category with Search", navigation: "HomeScreenViewController"),
 //            (title: "Concurrency download image", navigation: "ImageMatrixViewController"),
 //            (title: "Beer Content Detail", navigation: "CombineViewController"),
-//        ]
+        ]
     ]
     
     func setUpTableView() {
