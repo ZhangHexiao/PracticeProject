@@ -29,7 +29,7 @@ class ViewController: UIViewController {
             (title: "Recipe List Take Home Test", navigation: RecipeListViewController.self),
             (title: "Timmer", navigation: TimerViewController.self),
             (title: "Concurrent Image Research", navigation: ConcurrentImageViewController.self),
-//            (title: "AnimationChart", navigation: "AnimationController")
+            (title: "AnimationChart", navigation: AnimationUIViewController.self)
         ],
 //        [
 //            (title: "Tic-tac-toe Game", navigation: "ThreeQueenController"),
