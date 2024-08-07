@@ -50,6 +50,9 @@
 		BEF54D372C6253FF001F69DA /* AnimationUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D362C6253FF001F69DA /* AnimationUIViewController.swift */; };
 		BEF54D3A2C630553001F69DA /* TicTacToeColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D392C630553001F69DA /* TicTacToeColletionViewCell.swift */; };
 		BEF54D3C2C63062C001F69DA /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D3B2C63062C001F69DA /* TicTacToeViewController.swift */; };
+		BEF54D3F2C631BDC001F69DA /* ShortURLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D3E2C631BDB001F69DA /* ShortURLNetworkManager.swift */; };
+		BEF54D412C6321A2001F69DA /* ShortURLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D402C6321A2001F69DA /* ShortURLViewModel.swift */; };
+		BEF54D432C632427001F69DA /* ShortURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54D422C632427001F69DA /* ShortURLViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,9 @@
 		BEF54D362C6253FF001F69DA /* AnimationUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUIViewController.swift; sourceTree = "<group>"; };
 		BEF54D392C630553001F69DA /* TicTacToeColletionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeColletionViewCell.swift; sourceTree = "<group>"; };
 		BEF54D3B2C63062C001F69DA /* TicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewController.swift; sourceTree = "<group>"; };
+		BEF54D3E2C631BDB001F69DA /* ShortURLNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortURLNetworkManager.swift; sourceTree = "<group>"; };
+		BEF54D402C6321A2001F69DA /* ShortURLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortURLViewModel.swift; sourceTree = "<group>"; };
+		BEF54D422C632427001F69DA /* ShortURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortURLViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,7 @@
 				BEF54D2C2C61AA2E001F69DA /* ConcurrencyResearch */,
 				BEF54D352C625123001F69DA /* AnimationUIView */,
 				BEF54D382C6304B8001F69DA /* Tic-Tac-Toe */,
+				BEF54D3D2C631BBC001F69DA /* ShortURL */,
 				BE7D308F2C5F1CFB000FAB65 /* AppDelegate.swift */,
 				BE7D30912C5F1CFB000FAB65 /* SceneDelegate.swift */,
 				BE7D30952C5F1CFB000FAB65 /* Main.storyboard */,
@@ -333,6 +340,16 @@
 			path = "Tic-Tac-Toe";
 			sourceTree = "<group>";
 		};
+		BEF54D3D2C631BBC001F69DA /* ShortURL */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54D422C632427001F69DA /* ShortURLViewController.swift */,
+				BEF54D402C6321A2001F69DA /* ShortURLViewModel.swift */,
+				BEF54D3E2C631BDB001F69DA /* ShortURLNetworkManager.swift */,
+			);
+			path = ShortURL;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -468,6 +485,7 @@
 				BEF54D142C61729D001F69DA /* NetworkManager.swift in Sources */,
 				BE7D30942C5F1CFB000FAB65 /* ViewController.swift in Sources */,
 				BEF54D302C61B1C4001F69DA /* ConcurrentImageViewModel.swift in Sources */,
+				BEF54D412C6321A2001F69DA /* ShortURLViewModel.swift in Sources */,
 				BEF54D3C2C63062C001F69DA /* TicTacToeViewController.swift in Sources */,
 				BEF54D372C6253FF001F69DA /* AnimationUIViewController.swift in Sources */,
 				BEF54D0B2C61710F001F69DA /* PageWrapper.swift in Sources */,
@@ -475,6 +493,7 @@
 				BEF54D202C6173AC001F69DA /* LayoutDimension.swift in Sources */,
 				BEF54CF32C600AA2001F69DA /* CollectionImageNetworkManager.swift in Sources */,
 				BEF54D1E2C617387001F69DA /* usesAutoLayout.swift in Sources */,
+				BEF54D432C632427001F69DA /* ShortURLViewController.swift in Sources */,
 				BEF54CF72C602225001F69DA /* CollectionImageDataModel.swift in Sources */,
 				BEF54CFC2C6118D1001F69DA /* StarWarNetworkManager.swift in Sources */,
 				BEF54D162C6172D6001F69DA /* ImageCacheLoader.swift in Sources */,
@@ -500,6 +519,7 @@
 				BEF54D3A2C630553001F69DA /* TicTacToeColletionViewCell.swift in Sources */,
 				BEF54D062C6130BC001F69DA /* StarWarPersonViewCell.swift in Sources */,
 				BEF54CFE2C61239D001F69DA /* StarWarModel.swift in Sources */,
+				BEF54D3F2C631BDC001F69DA /* ShortURLNetworkManager.swift in Sources */,
 				BEF54D0D2C617128001F69DA /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

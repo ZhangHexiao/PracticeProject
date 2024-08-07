@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         [
             (title: "Collection View With Image", navigation: CollectionImageViewController.self),
-            (title: "Search Your Hero", navigation: StarWarViewController.self),
+            (title: "Search Star War", navigation: StarWarViewController.self),
             (title: "Recipe List Take Home Test", navigation: RecipeListViewController.self),
             (title: "Timmer", navigation: TimerViewController.self),
             (title: "Concurrent Image Research", navigation: ConcurrentImageViewController.self),
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         ],
         [
             (title: "Tic-tac-toe Game", navigation: TicTacToeViewController.self),
-//            (title: "Beer Category with Search", navigation: "HomeScreenViewController"),
+            (title: "Short URL Generator", navigation: ShortURLViewController.self),
 //            (title: "Concurrency download image", navigation: "ImageMatrixViewController"),
 //            (title: "Beer Content Detail", navigation: "CombineViewController"),
         ]
