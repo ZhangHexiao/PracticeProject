@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE319CF72C64585100979C70 /* BarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319CF62C64585100979C70 /* BarViewCell.swift */; };
+		BE319CF92C64591400979C70 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319CF82C64591400979C70 /* BarChartViewController.swift */; };
 		BE7D30902C5F1CFB000FAB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D308F2C5F1CFB000FAB65 /* AppDelegate.swift */; };
 		BE7D30922C5F1CFB000FAB65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D30912C5F1CFB000FAB65 /* SceneDelegate.swift */; };
 		BE7D30942C5F1CFB000FAB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D30932C5F1CFB000FAB65 /* ViewController.swift */; };
@@ -73,6 +75,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE319CF62C64585100979C70 /* BarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewCell.swift; sourceTree = "<group>"; };
+		BE319CF82C64591400979C70 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		BE7D308C2C5F1CFB000FAB65 /* PracticeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7D308F2C5F1CFB000FAB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE7D30912C5F1CFB000FAB65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +154,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE319CF52C64578C00979C70 /* BarChartAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BE319CF82C64591400979C70 /* BarChartViewController.swift */,
+				BE319CF62C64585100979C70 /* BarViewCell.swift */,
+			);
+			path = BarChartAnimation;
+			sourceTree = "<group>";
+		};
 		BE7D30832C5F1CFA000FAB65 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				BEF54CEA2C5F20DF001F69DA /* LandiingScreen */,
+				BE319CF52C64578C00979C70 /* BarChartAnimation */,
 				BEF54CED2C60080E001F69DA /* CollectionViewWithImage */,
 				BEF54CFA2C60701D001F69DA /* StarWarWithSearch */,
 				BEF54D072C616F38001F69DA /* InfiniteLoading-TakHome */,
@@ -516,8 +530,10 @@
 				BEF54D342C61B2F6001F69DA /* ConcurrentImageAPIClient.swift in Sources */,
 				BEF54D322C61B20D001F69DA /* ConcurrentImageViewController.swift in Sources */,
 				BEF54D122C61726B001F69DA /* ApiRequest+Protocol.swift in Sources */,
+				BE319CF92C64591400979C70 /* BarChartViewController.swift in Sources */,
 				BEF54D3A2C630553001F69DA /* TicTacToeColletionViewCell.swift in Sources */,
 				BEF54D062C6130BC001F69DA /* StarWarPersonViewCell.swift in Sources */,
+				BE319CF72C64585100979C70 /* BarViewCell.swift in Sources */,
 				BEF54CFE2C61239D001F69DA /* StarWarModel.swift in Sources */,
 				BEF54D3F2C631BDC001F69DA /* ShortURLNetworkManager.swift in Sources */,
 				BEF54D0D2C617128001F69DA /* Recipe.swift in Sources */,

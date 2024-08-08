@@ -58,7 +58,7 @@ class ShortURLNetworkManager: ShortURLNetworkServiceProtocol {
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
 
         let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-            if let error = error {
+            if let _ = error {
                 completion(.failure(ShorURLNetworkError.errorFromResponse))
             } else if let data = data {
                 completion(.success(data))

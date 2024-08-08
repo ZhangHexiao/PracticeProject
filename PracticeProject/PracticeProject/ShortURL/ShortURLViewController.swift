@@ -42,9 +42,9 @@ class ShortURLViewController: UIViewController, ShortURLViewModelDelegate {
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.black.cgColor
         button.layer.cornerRadius = 10
-        button.backgroundColor = .cyan
+        button.backgroundColor = .green
         button.titleLabel?.font = UIFont.systemFont(ofSize: 15, weight: .bold)
-        button.titleLabel?.textColor = UIColor.white
+        button.setTitleColor(.white, for: .normal)
         return button
     }()
     
