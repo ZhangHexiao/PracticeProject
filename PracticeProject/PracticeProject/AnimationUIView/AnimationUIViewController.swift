@@ -27,7 +27,7 @@ class AnimationUIViewController: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
- 
+    
     var barChartView: BarChartView!
     
     var data: [(UIColor, CGFloat)] = [
@@ -40,8 +40,8 @@ class AnimationUIViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         setUpBackgroundView()
-//        barChartView = BarChartView(frame: view.bounds)
-//        barChartView.autoresizingMask = [.flexibleWidth]
+        //        barChartView = BarChartView(frame: view.bounds)
+        //        barChartView.autoresizingMask = [.flexibleWidth]
         barChartView = BarChartView(frame: CGRect(x: 20, y: 100, width: 335, height: 200))
         barChartView.backgroundColor = .lightGray
         barChartView.data = data
@@ -77,13 +77,39 @@ class AnimationUIViewController: UIViewController {
             (.red, 10),
             (.green, 70)
         ]
+        // Transition for two views
         
         // ************update the UI direactly************
         // barChartView.data = newData
         // ************update the UI with transition************
-        UIView.transition(with: barChartView, duration: 0.5, options: .transitionCrossDissolve, animations: {
-            self.barChartView.data = newData
-        }, completion: nil)
+        //        UIView.transition(with: barChartView, duration: 0.5, options: .transitionCrossDissolve, animations: {
+        //            self.barChartView.data = newData
+        //        }, completion: nil)
+        
+        // ************update the UI with transition ************
+        //        UIView.transition(with: barChartView, duration: 0.5, options: .transitionCrossDissolve, animations: {
+        //            self.barChartView.center = CGPoint(x: 200, y: 500)
+        //        }, completion: nil)
+        // ************update the UI with transition with alpha************
+                UIView.animate(
+                    withDuration: 1.0,
+                    delay: 0,
+                    usingSpringWithDamping: 0.5, // Damping ratio (0.0 to 1.0)
+                    initialSpringVelocity: 0.5,  // Initial velocity (0.0 and up)
+                    options: [.curveEaseInOut],
+                    animations: {
+                        // Change the position of the view
+                        self.barChartView.center = CGPoint(x: 200, y: 500)
+                        // Optionally change other properties like alpha or transform
+                        self.barChartView.alpha = 0.8
+                        self.barChartView.transform = CGAffineTransform(rotationAngle: .pi)
+                    },
+                    completion: { finished in
+                        print("Spring animation completed")
+                    }
+                )
+        // ************update the UI with transition ************
+    
     }
 }
 

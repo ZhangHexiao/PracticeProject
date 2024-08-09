@@ -26,8 +26,8 @@ class BarCell: UICollectionViewCell {
     }
 
     override func prepareForReuse() {
-        if let heightContrain = barView.constraints.first(where: {$0.firstAttribute == .height}) {
-            heightContrain.isActive = false
+        if let heightConstrain = barView.constraints.first(where: {$0.firstAttribute == .height}) {
+            heightConstrain.isActive = false
         }
     }
 

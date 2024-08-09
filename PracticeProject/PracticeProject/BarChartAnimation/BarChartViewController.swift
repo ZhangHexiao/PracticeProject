@@ -18,10 +18,9 @@ class BarChartViewController: UIViewController {
     
     var barData:[Bar] {
         let maxHeight = CGFloat(data.map{$0.height}.max() ?? 1)
-        return data.map{Bar(color: $0.color, nomlizedHeight: CGFloat($0.height)/maxHeight)}
+        return data.map{Bar(color: $0.color, nomlizedHeight: CGFloat($0.height) / maxHeight)}
     }
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
