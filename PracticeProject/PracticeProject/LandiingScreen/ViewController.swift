@@ -35,7 +35,7 @@ class ViewController: UIViewController {
             (title: "Tic-tac-toe Game", navigation: TicTacToeViewController.self),
             (title: "Short URL Generator", navigation: ShortURLViewController.self),
             (title: "Bar Chart Animation", navigation: BarChartViewController.self),
-//            (title: "Beer Content Detail", navigation: "CombineViewController"),
+            (title: "Calculator", navigation: CalculatorViewController.self),
         ]
     ]
     

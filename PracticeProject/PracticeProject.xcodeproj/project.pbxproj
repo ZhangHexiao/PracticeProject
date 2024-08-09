@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE319CF72C64585100979C70 /* BarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319CF62C64585100979C70 /* BarViewCell.swift */; };
 		BE319CF92C64591400979C70 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319CF82C64591400979C70 /* BarChartViewController.swift */; };
+		BE319CFC2C65D0DC00979C70 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319CFB2C65D0DC00979C70 /* Calculator.swift */; };
 		BE7D30902C5F1CFB000FAB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D308F2C5F1CFB000FAB65 /* AppDelegate.swift */; };
 		BE7D30922C5F1CFB000FAB65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D30912C5F1CFB000FAB65 /* SceneDelegate.swift */; };
 		BE7D30942C5F1CFB000FAB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D30932C5F1CFB000FAB65 /* ViewController.swift */; };
@@ -77,6 +78,7 @@
 /* Begin PBXFileReference section */
 		BE319CF62C64585100979C70 /* BarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewCell.swift; sourceTree = "<group>"; };
 		BE319CF82C64591400979C70 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		BE319CFB2C65D0DC00979C70 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		BE7D308C2C5F1CFB000FAB65 /* PracticeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7D308F2C5F1CFB000FAB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE7D30912C5F1CFB000FAB65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +165,14 @@
 			path = BarChartAnimation;
 			sourceTree = "<group>";
 		};
+		BE319CFA2C65D0C700979C70 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				BE319CFB2C65D0DC00979C70 /* Calculator.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
 		BE7D30832C5F1CFA000FAB65 = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				BEF54CEA2C5F20DF001F69DA /* LandiingScreen */,
+				BE319CFA2C65D0C700979C70 /* Calculator */,
 				BE319CF52C64578C00979C70 /* BarChartAnimation */,
 				BEF54CED2C60080E001F69DA /* CollectionViewWithImage */,
 				BEF54CFA2C60701D001F69DA /* StarWarWithSearch */,
@@ -519,6 +530,7 @@
 				BE7D30902C5F1CFB000FAB65 /* AppDelegate.swift in Sources */,
 				BEF54D2E2C61AAC5001F69DA /* ConcurrentImageCell.swift in Sources */,
 				BEF54D2B2C61808C001F69DA /* TimerViewController.swift in Sources */,
+				BE319CFC2C65D0DC00979C70 /* Calculator.swift in Sources */,
 				BEF54CEF2C6008BC001F69DA /* CollectionImageViewController.swift in Sources */,
 				BEF54CF12C600A0A001F69DA /* CollectionImageViewModel.swift in Sources */,
 				BE7D30922C5F1CFB000FAB65 /* SceneDelegate.swift in Sources */,
